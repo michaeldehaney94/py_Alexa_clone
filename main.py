@@ -59,7 +59,7 @@ def run_alexa():
         elif 'date' in command:
             talk('Sorry, I\'m not interested, but we can be friends though')
         elif 'are you single' in command:
-            talk('Sorry, I\'m already in a relationship with google AI')
+            talk('Sorry, I\'m already in a relationship with Chat GPT')
         elif 'joke' in command:
             talk(pyjokes.get_joke())
         else:
