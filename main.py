@@ -26,9 +26,9 @@ def take_command():
             command = listener.recognize_google(voice)
             command = command.lower()
             if 'alexa' in command:
-                command = command.replace('alexa', '')
+                command = command.replace('clara', '')
             else:
-                talk('Please say \"Alexa\", before speaking command')
+                talk('Please say \"Clara\", before speaking command')
     except:
         pass
     return command
